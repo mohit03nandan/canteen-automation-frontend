@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Fooddata from "../foodata/fooddata";
 const DashBoard = () => {
   return (
     <div>
@@ -29,6 +30,9 @@ const DashBoard = () => {
           <p style={{ color: "white", fontSize: "20px" }}>Bringing the flavor game to a whole new level.</p>
         </div>
       </div>
+
+ <Fooddata/>
+
     </div>
   );
 };
